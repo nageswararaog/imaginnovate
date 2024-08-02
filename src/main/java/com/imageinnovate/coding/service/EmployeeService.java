@@ -39,11 +39,11 @@ public class EmployeeService {
 
         if (yearlySalary > 1000000) {
             taxAmount += (yearlySalary - 1000000) * 0.20;
-            yearlySalary = 1000000;
+            
         }
         if (yearlySalary > 500000) {
             taxAmount += (yearlySalary - 500000) * 0.10;
-            yearlySalary = 500000;
+            
         }
         if (yearlySalary > 250000) {
             taxAmount += (yearlySalary - 250000) * 0.05;
