@@ -16,11 +16,9 @@ import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "employees", schema = "imaginnovate")
-
 public class Employee {
 
 	@Id
-	@NotBlank
 	private String employeeId;
 
 	@NotBlank
